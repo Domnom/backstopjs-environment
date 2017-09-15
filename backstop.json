@@ -12,8 +12,8 @@
       "height": 768
     }
   ],
-  "onBeforeScript": "backstop_data/engine_scripts/chromy/onBefore.js",
-  "onReadyScript": "backstop_data/engine_scripts/chromy/onReady.js",
+  "onBeforeScript": "chromy/onBefore.js",
+  "onReadyScript": "chromy/onReady.js",
   "scenarios": [
     {
       "label": "BackstopJS Homepage",
