@@ -57,4 +57,4 @@ RUN \
 
 WORKDIR /src
 
-# ENTRYPOINT ["bash"]
+ENTRYPOINT ["bash"]
