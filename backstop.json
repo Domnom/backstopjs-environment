@@ -46,6 +46,6 @@
   "engineFlags": [],
   "asyncCaptureLimit": 5,
   "asyncCompareLimit": 50,
-  "debug": false,
+  "debug": true,
   "debugWindow": false
 }
