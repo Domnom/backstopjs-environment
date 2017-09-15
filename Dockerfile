@@ -53,7 +53,7 @@ RUN \
 RUN \
 	# BackstopJS
 	echo "Installing BackstopJS v${BACKSTOPJS_VERSION}..." && \
-	npm install -g backstopjs@${BACKSTOPJS_VERSION}
+	npm install -g backstopjs
 
 WORKDIR /src
 
