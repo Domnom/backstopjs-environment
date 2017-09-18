@@ -35,11 +35,11 @@ module.exports = {
     }
   ],
   "paths": {
-    "bitmaps_reference": process.cwd() + "/backstop_data/bitmaps_reference",
-    "bitmaps_test": process.cwd() + "/backstop_data/bitmaps_test",
-    "engine_scripts": process.cwd() + "/backstop_data/engine_scripts",
-    "html_report": process.cwd() + "/backstop_data/html_report",
-    "ci_report": process.cwd() + "/backstop_data/ci_report"
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
   },
   "openReport" : false,
   "report": ["browser"],
@@ -47,6 +47,6 @@ module.exports = {
   "casperFlags": [],
   "asyncCaptureLimit": 5,
   "asyncCompareLimit": 50,
-  "debug": true,
+  "debug": false,
   "debugWindow": false
 }
