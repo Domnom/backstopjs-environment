@@ -1,3 +1,5 @@
+var path = require('path');
+
 module.exports = {
   "id": "backstop_default",
   "viewports": [
@@ -35,13 +37,13 @@ module.exports = {
     }
   ],
   "paths": {
-    "bitmaps_reference": "backstop_data/bitmaps_reference",
-    "bitmaps_test": "backstop_data/bitmaps_test",
-    "engine_scripts": "backstop_data/engine_scripts",
-    "html_report": "backstop_data/html_report",
-    "ci_report": "backstop_data/ci_report"
+    "bitmaps_reference": path.join(__dirname, "backstop_data/bitmaps_reference"),
+    "bitmaps_test": path.join(__dirname, "backstop_data/bitmaps_test"),
+    "engine_scripts": path.join(__dirname, "backstop_data/engine_scripts"),
+    "html_report": path.join(__dirname, "backstop_data/html_report"),
+    "ci_report": path.join(__dirname, "backstop_data/ci_report")
   },
-  "openReport" : true,
+  "openReport" : false,
   "report": ["browser"],
   "engine": "phantomjs",
   "casperFlags": [],
