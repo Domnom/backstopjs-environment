@@ -39,7 +39,7 @@ module.exports = {
   "paths": {
     "bitmaps_reference": path.join(__dirname, "backstop_data/bitmaps_reference"),
     "bitmaps_test": path.join(__dirname, "backstop_data/bitmaps_test"),
-    "engine_scripts": path.join('/usr/src/tests', "backstop_data/engine_scripts"),
+    "engine_scripts": path.join('/usr/src/tests/mytest', "backstop_data/engine_scripts"),
     "html_report": path.join(__dirname, "backstop_data/html_report"),
     "ci_report": path.join(__dirname, "backstop_data/ci_report")
   },
