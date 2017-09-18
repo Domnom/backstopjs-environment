@@ -1,5 +1,5 @@
-var backstopDataDir = __dirname + "/backstop_data/";
-
+// var backstopDataDir = __dirname + "/backstop_data/";
+var backstopDataDir = "/src/tests/backstop_data/";
 console.log('***** backstopDataDir', backstopDataDir);
 
 module.exports = {
