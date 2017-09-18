@@ -1,5 +1,3 @@
-
-
 module.exports = {
   "id": "backstop_default",
   "viewports": [
@@ -37,11 +35,11 @@ module.exports = {
     }
   ],
   "paths": {
-    "bitmaps_reference": "/usr/src/tests/test/backstop_data/bitmaps_reference",
-    "bitmaps_test": "/usr/src/tests/test/backstop_data/bitmaps_test",
-    "engine_scripts": "/usr/src/tests/test/backstop_data/engine_scripts",
-    "html_report": "/usr/src/tests/test/backstop_data/html_report",
-    "ci_report": "/usr/src/tests/test/backstop_data/ci_report"
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
   },
   "report": ["browser"],
   "engine": "phantomjs",
