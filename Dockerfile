@@ -55,6 +55,9 @@ RUN \
 	echo "Installing BackstopJS v${BACKSTOPJS_VERSION}..." && \
 	npm install -g backstopjs
 
-WORKDIR /src
+# Mkdir for all the tests to be stored
+RUN mkdir -p /usr/src/tests
+
+WORKDIR /usr/src/tests
 
 ENTRYPOINT ["bash"]
