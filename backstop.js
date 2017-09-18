@@ -39,7 +39,7 @@ module.exports = {
   "paths": {
     "bitmaps_reference": "/usr/src/tests/test/backstop_data/bitmaps_reference",
     "bitmaps_test": "/usr/src/tests/test/backstop_data/bitmaps_test",
-    "engine_scripts": "usr/src/tests/test/backstop_data/engine_scripts",
+    "engine_scripts": "/src/tests/test/backstop_data/engine_scripts",
     "html_report": "/usr/src/tests/test/backstop_data/html_report",
     "ci_report": "/usr/src/tests/test/backstop_data/ci_report"
   },
