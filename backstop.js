@@ -41,7 +41,7 @@ module.exports = {
     "html_report": "backstop_data/html_report",
     "ci_report": "backstop_data/ci_report"
   },
-  "report": ["browser"],
+  "report": [],
   "engine": "phantomjs",
   "casperFlags": [],
   "asyncCaptureLimit": 5,
