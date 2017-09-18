@@ -37,11 +37,11 @@ module.exports = {
     }
   ],
   "paths": {
-    "bitmaps_reference": __dirname + "/backstop_data/bitmaps_reference",
-    "bitmaps_test": __dirname + "/backstop_data/bitmaps_test",
-    "engine_scripts": __dirname + "/backstop_data/engine_scripts",
-    "html_report": __dirname + "/backstop_data/html_report",
-    "ci_report": __dirname + "/backstop_data/ci_report"
+    "bitmaps_reference": "/usr/src/tests/test/backstop_data/bitmaps_reference",
+    "bitmaps_test": "/usr/src/tests/test/backstop_data/bitmaps_test",
+    "engine_scripts": "/usr/src/tests/test/backstop_data/engine_scripts",
+    "html_report": "/usr/src/tests/test/backstop_data/html_report",
+    "ci_report": "/usr/src/tests/test/backstop_data/ci_report"
   },
   "report": ["browser"],
   "engine": "phantomjs",
