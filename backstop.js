@@ -14,8 +14,8 @@ module.exports = {
       "height": 768
     }
   ],
-  "onBeforeScript": "casper/onBefore.js",
-  "onReadyScript": "casper/onReady.js",
+  "onBeforeScript": "/casper/onBefore.js",
+  "onReadyScript": "/casper/onReady.js",
   "scenarios": [
     {
       "label": "BackstopJS Homepage",
