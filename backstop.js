@@ -1,3 +1,5 @@
+console.log("JNASDAJSDNAD", process.cwd());
+
 module.exports = {
   "id": "backstop_default",
   "viewports": [
